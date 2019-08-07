@@ -11,7 +11,7 @@ namespace TypeMockFsCheck.NUnit
 
             var result = calculator.Sum(3, 5);
 
-            Assert.Equals(8, result);
+            Assert.AreEqual(8, result);
         }
     }
 }
